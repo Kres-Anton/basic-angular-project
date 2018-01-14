@@ -123,10 +123,7 @@ let options = {
             	{
             		loader: 'less-loader', options: {
                     								sourceMap: true,
-<<<<<<< HEAD
                     								relativeUrls: false
-=======
->>>>>>> 741da8192a04f53159a08dd04a41ace0828dcd35
                										}
             	}
             	]	
@@ -145,13 +142,10 @@ let options = {
       		},
       		{test: /\.json$/,
       		 loader: 'json-loader'
-<<<<<<< HEAD
       		},
       		{
       			test: /\.html/,
       		 loader: 'raw-loader'
-=======
->>>>>>> 741da8192a04f53159a08dd04a41ace0828dcd35
       		}
        ]
    },
